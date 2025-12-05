@@ -1,0 +1,9 @@
+export const TRADE_SYMBOL = "BTCUSDT";
+export const TRADE_AMOUNT = 0.001;
+export const ARB_THRESHOLD = 80;
+export const CLOSE_DIFF = 3; // 3U
+export const PROFIT_DIFF_LIMIT = 1; // Profit difference threshold when closing positions on both exchanges, in USDT
+export const LOSS_LIMIT = 0.03; // Maximum loss per trade in USDT
+export const STOP_LOSS_DIST = 0.1; // Stop loss distance in USDT
+export const TRAILING_PROFIT = 0.2; // Trailing stop profit activation in USDT
+export const TRAILING_CALLBACK_RATE = 0.2; // Trailing stop callback rate percentage

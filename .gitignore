@@ -1,5 +1,6 @@
-/node_modules
-/node_modules/*
-/consts/index.ts
-package-lock.json
-yarn.lock
+.env
+.env*
+test.ts
+watch.ts
+liveAster.ts
+node_modules
